@@ -1,0 +1,40 @@
+#resume h1 { font-size: 150%; margin-bottom: 0; }
+#resume h2 { font-size: 125%; margin-bottom: 0; }
+#resume h3 { font-size: 110%; }
+#resume h4 { font-size: 110%; margin-bottom: 0;
+}
+#resume section hr {
+	margin: 0;
+	height: 2px;
+	width: 738px;
+	color: #000;
+	background-color: #000;
+	border: 0;
+}
+#resume h1 + p, h4 + p { margin-top: 0; }
+
+#resume .company { font-style: italic; }
+#resume .school_name { font-weight: bold; }
+#resume #disclaimer { font-style: italic; }
+#resume #container {
+	background-image: url(../img/background.jpg);
+	background-image: -moz-linear-gradient(744px 600px 70deg, #eef, #7793bc);
+	background-image: -webkit-gradient(linear, 100% 0%, 50% 15%, from(#7793bc), to(#eef));
+}
+
+#resume #copyright {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	color: #888888;
+	background: #EEEEEE;
+	text-align: right;
+}
+#resume #copyright p {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+#resume .client {
+	margin-bottom: 0;
+}
