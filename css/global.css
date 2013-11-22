@@ -116,9 +116,11 @@ hr {
   background: #FFFFFF;
   border: 0;
   color: #FFFFFF;
+  left: -20px;
   height: 2px;
-  margin: 30px 0 -20px -10px;
-  width: 765px;
+  margin: 30px 0 -20px 0;
+  position: relative;
+  width: 784px;
 }
 #header {
   color: #ffffff;
