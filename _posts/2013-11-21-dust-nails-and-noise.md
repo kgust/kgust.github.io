@@ -1,12 +1,10 @@
 ---
-layout: home
+layout: post
 title: Dust, Nails, and Noise!
 categories: blog
 tags: Uncategorized
+date: 21 November 2013
 ---
-
-Dust, Nails, and Noise!
-=======================
 
 I'm currently editing the website.  This includes:
 

@@ -1,13 +1,10 @@
 ---
-layout: home
+layout: post
 title: Why Composer is a Gamechanger!
 categories: blog 
 tags: development php slow-out-of-gate
 permalink: /blog/slow-out-of-the-gate/composer-is-a-gamechanger.html
 ---
-
-Why Composer is a Gamechanger!
-==============================
 
 Slow Out of the Gate Series
 ---------------------------

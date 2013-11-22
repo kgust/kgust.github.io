@@ -1,13 +1,10 @@
 ---
-layout: home
+layout: post
 title: Greetings...  and Purpose
 categories: blog 
 tags: uncatagorized
 date: 20 November 2013 17:12
 ---
-
-Greetings... and Purpose
-========================
 
 Why Another Blog?  (Why I do what I do!)
 ----------------------------------------

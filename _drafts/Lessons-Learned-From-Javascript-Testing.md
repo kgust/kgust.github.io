@@ -1,13 +1,10 @@
 ---
-layout: home
+layout: post
 title: Lessons Learned From Javascript Testing
 categories: blog
 tags: development javascript testing series
 permalink: /blog/lessons-learned-from-javascript-testing/intro.html
 ---
-
-{{post.title}}
-==============
 
 Introducing the "Lessons Learned From Javascript Testing" series.
 -----------------------------------------------------------------
