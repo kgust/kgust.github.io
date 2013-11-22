@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Greetings...  and Purpose
-categories: blog 
 tags: uncatagorized
 date: 20 November 2013 17:12
 ---

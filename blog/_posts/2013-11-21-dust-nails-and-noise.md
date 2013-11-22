@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Dust, Nails, and Noise!
-categories: blog
 tags: Uncategorized
 date: 21 November 2013
 ---
