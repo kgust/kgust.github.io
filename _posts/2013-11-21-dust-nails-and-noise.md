@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Dust, Nails, and Noise!
 categories: blog
 tags: Uncategorized
 ---
