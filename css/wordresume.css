@@ -1,0 +1,15 @@
+body {
+	background: #a9a9b9;
+}
+div.Section1 {
+	margin: 50px auto;
+	padding: 10px 10px 70px 10px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 744px;
+	background-image: url(../img/background.jpg);
+	background-image: -moz-linear-gradient(744px 600px 70deg, #eef, #7793bc);
+	background-image: -webkit-gradient(linear, 100% 0%, 50% 15%, from(#7793bc), to(#eef));
+}

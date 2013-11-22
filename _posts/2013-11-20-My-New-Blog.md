@@ -34,7 +34,7 @@ Currently they include:
 
 ### The Living God
 
-If you knew for certain that there was a Living, Loving, Holy God
+If you knew for certain that there was a living, loving, holy God
 who could see everything that you see and hear, how would that
 change how you live?  I believe this is the reality that we will
 in and will explore the ramifications of this truth.

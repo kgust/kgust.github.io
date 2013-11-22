@@ -1,8 +1,9 @@
 ---
 layout: home
-title: Greetings...  and Purpose
+title: Why Composer is a Gamechanger!
 categories: blog 
 tags: development php slow-out-of-gate
+permalink: /blog/slow-out-of-the-gate/composer-is-a-gamechanger.html
 ---
 
 Why Composer is a Gamechanger!

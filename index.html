@@ -3,16 +3,6 @@ layout: home
 title: KevinGustavson.info
 ---
 
-<!--
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
--->
     <div id='head'>
       <h1>
         Kevin Gustavson<br />
@@ -30,12 +20,21 @@ title: KevinGustavson.info
 
       <img id='headshot' src='img/headshot.png' alt="Photo of Kevin" />
 
-      <p id="contact-form">Want to know more? <a href="https://docs.google.com/forms/d/1Jgeu3CrCjmpwgJNjGSu-PAUPMUOevZ6sVBS--do7ues/viewform">Send me a message</a></p>
+      <p id="contact-form">Want to know more? <a href="#" class="contact">Send me a message</a></p>
       <object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=eb79c3f2c4f7168fdc5c66f4bccc8a2f54fe55a8&style=0" /></object>
     </div>
     <hr />
 
     <div id='content'>
+      <aside>
+        <h2>Recent Blog Posts</h2>
+        <ul class="posts">
+          {% for post in site.posts %}{% if forloop.index < 5 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}{% endfor %}
+        </ul>
+      </aside>
+
         <h2>Professional Expertise</h2>
 
         <p>
@@ -73,3 +72,7 @@ title: KevinGustavson.info
         <a href='Gustavson%20Resume%202010%20-%20Online%20Version.pdf'>PDF</a> and <a href="resume.html">HTML</a> formats are available here.  Microsoft Word format is available on request.</p>
       -->
     </div>
+
+<!--
+<iframe src="https://docs.google.com/forms/d/1Jgeu3CrCjmpwgJNjGSu-PAUPMUOevZ6sVBS--do7ues/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+-->
