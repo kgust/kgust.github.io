@@ -1,0 +1,26 @@
+---
+layout: home
+title: Simple Form test
+---
+
+<style type="text/css">
+form {
+    width: 250px;
+}
+</style>
+<form action="http://getsimpleform.com/messages?form_api_token=978d7833545c29143dc6e1c8c0320586" method="post">
+  <label for="contact-name">*Name:</label>
+  <input type="text" id="contact-name" class="contact-input" name="name" tabindex="1001" style="font-size: 0.9em;">
+  <label for="contact-email">*Email:</label>
+  <input type="text" id="contact-email" class="contact-input" name="email" tabindex="1002" style="font-size: 0.9em;">
+  <label for="contact-subject">Subject:</label>
+  <input type="text" id="contact-subject" class="contact-input" name="subject" value="" tabindex="1003" style="font-size: 0.9em;">
+  <label for="contact-message">*Message:</label>
+  <textarea id="contact-message" class="contact-input" name="message" cols="40" rows="4" tabindex="1004" style="font-size: 0.9em;"></textarea>
+  <br>
+  <label>&nbsp;</label>
+  <button type="submit" class="contact-send contact-button" tabindex="1006">Send</button>
+  <button type="submit" class="contact-cancel contact-button simplemodal-close" tabindex="1007">Cancel</button>
+  <br>
+  <input type="hidden" name="token" value="f6aaa35671c3fc3e6307cda4a256fcfd">
+</form>
