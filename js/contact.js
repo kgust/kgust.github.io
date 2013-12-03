@@ -16,11 +16,11 @@ $(document).ready(function () {
 	$('#contact-form input.contact, #contact-form a.contact').click(function (e) {
 		e.preventDefault();
 		// load the contact form using ajax
-		$.get("http://kevingustavson-dtedesigns.rhcloud.com/data/contact.php", function(data) {
+		$.get("/contact.html", function(data) {
 			// create a modal dialog with the data
 			$(data).modal({
 				closeHTML: "<a href='#' title='Close' class='modal-close'>x</a>",
-				position: ["15%",],
+				position: ["15%"],
 				overlayId: 'contact-overlay',
 				containerId: 'contact-container',
 				onOpen: contact.open,
