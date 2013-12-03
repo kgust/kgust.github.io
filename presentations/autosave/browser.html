@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Browser Installation</title>
+  <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" charset="utf-8">
+
+</head>
+<body>
+  <div id="container">
+    <h1 id="Browser Configuration">Browser Configuration</h1>
+    <p>You must enable Experimental Extension APIs before installing the Extension.</p>
+    <ul>
+      <li>Go to <code>chrome://flags</code>.</li>
+      <li>Find Experimental Extension APIs.</li>
+      <li>Click "Enable".</li>
+      <li>Restart your browser.</li>
+    </ul>
+
+    <p>Install the AutoSave Extension.</p>
+    <ul>
+      <li>
+      <a href="http://userscripts.ru/js/chrome-devtools-autosave/latest.crx">Install AutoSave</a>
+      (Direct link)
+      </li>
+    </ul>
+
+    <p>Configure your routes:</p>
+    <ul>
+      <li>Go to Tools->Extensions</li>
+      <li>Under DevTools autosave, click "options".</li>
+      <li>Set up a route. E.g.:
+        <ul>
+          <li><strong>Resource:</strong> <code>^http://localhost/</code></li>
+          <li><strong>Post to:</strong> <code>^http://127.0.0.1:9104/save</code></li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>Now you are all ready to go!</p>
+
+    <p>Previous: <a href="routes.html">Routes</a></p>
+    <p>Next: <a href="resources.html">Resources</a></p>
+  </div>
+</body>
+</html>

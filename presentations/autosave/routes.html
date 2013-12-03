@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Routing</title>
+  <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+  <div id="container">
+    <h1 id="heading">Routes.js (URL/File Translation)</h1>
+
+    <ol>
+      <li>Then you need a routes.js file. My routes.js file looks like this:</li>
+      <pre><code>
+  exports.routes = [
+    {
+      from: new RegExp('^http://localhost/'),
+      to: '/var/www/'
+    },
+    {
+      from: new RegExp('^http://kevingustavson.dev/'),
+      to: '/var/www/kevingustavson/'
+    }
+  ];
+      </code></pre>
+
+      <li>Finally, let's fire it up!</li>
+      <p><code>autosave --config ~/.autosave/routes.js</code></p>
+    </ol>
+
+    <p>Previous: <a href="node-js.html">Node.js and AutoSave Server</a></p>
+    <p>Next: <a href="browser.html">Browser Configuration</a></p>
+  </div>
+</body>
+</html>
