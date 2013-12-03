@@ -23,4 +23,22 @@ form {
   <button type="submit" class="contact-cancel contact-button simplemodal-close" tabindex="1007">Cancel</button>
   <br>
   <input type="hidden" name="token" value="f6aaa35671c3fc3e6307cda4a256fcfd">
+  <p><a id="action" href="#">Click me to see the action!</a></p>
 </form>
+
+<script type="text/javascript">
+  jQuery('a#action').on('click', function(e) {
+    data = jQuery('form').serialize();
+    jQuery.ajax({
+        dataType: 'jsonp',
+        url: 'http://getsimpleform.com/messages/ajax?form_api_token=978d7833545c29143dc6e1c8c0320586',
+        data: data
+    }).done(function() {
+        //callback which can be used to show a thank you message
+        //and reset the form
+        alert("Thank you, for contacting us");
+    });
+    e.preventDefault();
+    return false;
+  });
+</script>
