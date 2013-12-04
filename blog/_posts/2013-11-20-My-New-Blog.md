@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Greetings...  and Purpose
-tags: uncatagorized
+tags: uncategorized
 date: 20 November 2013 17:12
 ---
 
@@ -26,7 +26,7 @@ Currently they include:
 * Javascript (jQuery and OOP practices)
 * Testing (BDD/TDD, PHPUnit, Mocha, etc.)
 * Android (and other mobile topics)
-* Any new stuff...
+* Any new technologies...
 
 ### The Living God
 
