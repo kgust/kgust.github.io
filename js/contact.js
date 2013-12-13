@@ -114,7 +114,7 @@ var contact = {
 				}, function () {
 					$('#contact-container .contact-loading').fadeIn(200, function () {
 						$.ajax({
-							url: 'http://kevingustavson-dtedesigns.rhcloud.com/data/contact.php',
+							url: 'http://quiz2013-dtedesigns.rhcloud.com/data/contact.php',
 							data: $('#contact-container form').serialize() + '&action=send',
 							type: 'post',
 							cache: false,
