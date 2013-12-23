@@ -16,7 +16,7 @@ $(document).ready(function () {
 	$('#contact-form input.contact, #contact-form a.contact').click(function (e) {
 		e.preventDefault();
 		// load the contact form using ajax
-		$.get('http://quiz2013-dtedesigns.rhcloud.com/data/contact.php', function(data) {
+		$.get('http://php-dtedesigns.rhcloud.com/data/contact.php', function(data) {
 			// create a modal dialog with the data
 			$(data).modal({
 				closeHTML: "<a href='#' title='Close' class='modal-close'>x</a>",
@@ -114,7 +114,7 @@ var contact = {
 				}, function () {
 					$('#contact-container .contact-loading').fadeIn(200, function () {
 						$.ajax({
-							url: 'http://quiz2013-dtedesigns.rhcloud.com/data/contact.php',
+							url: 'http://php-dtedesigns.rhcloud.com/data/contact.php',
 							data: $('#contact-container form').serialize() + '&action=send',
 							type: 'post',
 							cache: false,
