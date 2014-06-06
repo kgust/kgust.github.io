@@ -271,11 +271,12 @@ hr {
 }
 #resume h1 {
   font-size: 150%;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 #resume h2 {
   font-size: 125%;
   margin-bottom: 0;
+  border-bottom: 2px solid #000;
 }
 #resume h3 {
   font-size: 110%;
