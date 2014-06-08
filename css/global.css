@@ -20,9 +20,9 @@ body {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   margin: 50px auto;
+  max-width: 744px;
   padding: 10px 20px 70px 20px;
   position: relative;
-  width: 744px;
 }
 #container .footnote {
   color: #888;
@@ -266,6 +266,9 @@ hr {
   width: 100px;
 }
 /* Styles for resume.html */
+#resume #container {
+  max-width: 960px;
+}
 #resume h1,
 #resume h2,
 #resume h3,
