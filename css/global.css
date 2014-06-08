@@ -76,6 +76,9 @@ section ul {
 p {
   line-height: 1.3em;
 }
+section p {
+  margin: 0;
+}
 .super {
   font-size: 80%;
   position: relative;
@@ -275,7 +278,7 @@ hr {
 }
 #resume h2 {
   font-size: 125%;
-  margin-bottom: 0;
+  margin-bottom: 1em;
   border-bottom: 2px solid #000;
 }
 #resume h3 {
@@ -293,11 +296,17 @@ hr {
   background-color: #000;
   border: 0;
 }
+#resume .achievements {
+  margin-top: 1em;
+}
 #resume h1 + p,
 #resume h4 + p {
   margin-top: 0;
 }
 #resume .company {
+  margin: 0 0 1em 0;
+}
+#resume .company span {
   font-style: italic;
 }
 #resume .school_name {
