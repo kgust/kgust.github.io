@@ -1,3 +1,8 @@
+@media print {
+    #title, #copyright, #header { display: none; }
+    html { font-size: 12px !important; }
+}
+
 html {
   font-family: arial;
   font-size: 16px;
@@ -267,7 +272,7 @@ hr {
 }
 /* Styles for resume.html */
 #resume #container {
-  max-width: 960px;
+  max-width: 800px;
 }
 #resume h1,
 #resume h2,
