@@ -3,87 +3,108 @@ layout: home
 title: KevinGustavson.info
 ---
 
-    <div id="head">
-      <h1>
-        Kevin Gustavson<br />
-        Batavia, Illinois
-      </h1>
+<div id="head">
+    <h1>
+    Kevin Gustavson<br />
+    Batavia, Illinois
+    </h1>
 
-      <h2>About Me</h2>
-      <ul>
+    <h2>About Me</h2>
+    <p>
+        I was raised on a farm in North Dakota. At an early age, I knew
+        that farming would not be my career choice. At the age of 16 when
+        my peers were buying their first cars, I earned the money to buy
+        an Apple //e computer. It fascinated me so much I learned everything I
+        possibly could, including how the circuitry worked.
+    </p>
+
+    <p>
+        I took a longer route than usual to complete my college credentials
+        because I worked while making my way through the educational process.
+        I made my family proud by being the first person in the extended
+        Gustavson family to earn a bachelor's degree.
+    </p>
+
+    <p>
+        My professional career since 1992 has taken me from a focus on
+        hardware and C programming to software quality assurance, and in
+        recent years, to web development which is my favorite area of
+        technology!
+    </p>
+    <!--
+    <ul>
         <li>Live in the western suburbs of Chicago.</li>
         <li>Have a passion for software and technology.</li>
         <li>Family man with a loving wife and two daughters.</li>
         <li>When not coding, I enjoy good books and photography.</li>
         <li>Volunteer as the sound team manager and as an Awana Clubs leader.</li>
-      </ul>
+    </ul>
+    -->
 
-      <img id='headshot' src='img/headshot.png' alt="Photo of Kevin" />
+    <img id='headshot' src='img/headshot.png' alt="Photo of Kevin" />
 
-      <p id="contact-form">Want to know more? <a href="#" class="contact">Send me a message</a></p>
-      <object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85">
-          <param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" />
-          <param name="wmode" value="transparent" />
-          <param name="FlashVars" value="id=29c54367d75bf41b2ca05c855d62cedc22b0b444&style=0" />
-          <object type="image/gif" data="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            transparent gif
-          </object>
-      </object>
-    </div>
-    <hr />
+    <p id="contact-form">Want to know more? <a href="#" class="contact">Send me a message</a></p>
+    <object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85">
+        <param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" />
+        <param name="wmode" value="transparent" />
+        <param name="FlashVars" value="id=29c54367d75bf41b2ca05c855d62cedc22b0b444&style=0" />
+        <object type="image/gif" data="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+        transparent gif
+        </object>
+    </object>
+</div>
+<hr />
 
-    <div id="content">
-      {% if false and site.posts|size >= 1 %}
-      <aside>
-        <h2>Recent Blog Posts</h2>
-        <ul class="posts">
-          {% for post in site.posts %}{% if forloop.index < 5 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a><br/><span>{{ post.date | date_to_string }}</span></li>
-          {% endif %}{% endfor %}
-        </ul>
-      </aside>
-      {% endif %}
+<div id="content">
+    {% if false and site.posts|size >= 1 %}
+    <aside>
+    <h2>Recent Blog Posts</h2>
+    <ul class="posts">
+        {% for post in site.posts %}{% if forloop.index < 5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a><br/><span>{{ post.date | date_to_string }}</span></li>
+        {% endif %}{% endfor %}
+    </ul>
+    </aside>
+    {% endif %}
 
-      <h2>Professional Expertise</h2>
+    <h2>Professional Expertise</h2>
 
-        <p>
-          I work as a web applications developer with <a
-          href="http://www.straightnorth.com" target="_blank">Straight North</a>
-          in Downers Grove, Illinois. I have extensive experience with software,
-          development, and testing.  I work primarily in PHP, but also works with
-          Javascript and Ruby.  In 2007, I began developing web applications
-          full time.  I love it!
-        </p>
+    <p>
+        I work as a web applications developer with <a
+        href="http://www.straightnorth.com" target="_blank">Straight North</a>
+        in Downers Grove, Illinois. I have extensive experience with software,
+        development, and testing.  I work primarily in PHP, but also work with
+        Javascript and Ruby.  In 2007, I began developing web applications
+        full time.  I love it!
+    </p>
 
-        <p>
-          A complete listing of my skills as well a history of the
-          wonderful employers I've worked for is available on my
-          resume.*<!-- <a href="resume.html">resume</a>. -->
-        </p>
+    <p>
+        A complete listing of my skills as well a history of the
+        wonderful employers I've worked for is available on my
+        resume.*<!-- <a href="resume.html">resume</a>. -->
+    </p>
 
-        <h3>Skills</h3>
-        <p>
-          I have an extensive background with many skills. A few highlights
-          would include PHP development, Javascript, SASS, databases, testing
-          software, and working with Linux, Mac OS X. See some of my <a
-          href="code_samples/">code samples</a>. I also have some older,
-          incomplete, examples of <a href="web_applications/">web
-          applications</a> I've worked on.
-        </p>
-      </div>
-
-      <div id="clients">
-        <h2>Freelance Work</h2>
-        <p>
-          I do mostly pro bono freelance work with some fun clients. There is a list of
-          clients and descriptions on my resume.
-        </p>
-      </div>
-
-      <p class="footnote">* Currently, resumes are available on request.</p>
-      <!--
-        <a href='Gustavson%20Resume%202010%20-%20Online%20Version.pdf'>PDF</a> and <a href="resume.html">HTML</a> formats are available here.  Microsoft Word format is available on request.</p>
-      -->
+    <h3>Skills</h3>
+    <p>
+        I have an extensive background with many skills. A few highlights
+        would include Symfony 2 and Laravel framework experience, Javascript,
+        SASS, databases, testing software, plus working with Linux, and Mac OS
+        X. See some of my <a href="code_samples/">code samples</a>. I also
+        have some older, incomplete, examples of <a href="web_applications/">web
+        applications</a> I've worked on.
+    </p>
     </div>
 
+    <div id="clients">
+    <h2>Freelance Work</h2>
+    <p>
+        I do some mostly pro bono freelance work for some fun clients. There is a list of
+        clients and descriptions on my resume.
+    </p>
+    </div>
 
+    <p class="footnote">* Resumes are available on request.</p>
+    <!--
+    <a href='Gustavson%20Resume%202010%20-%20Online%20Version.pdf'>PDF</a> and <a href="resume.html">HTML</a> formats are available here.  Microsoft Word format is available on request.</p>
+    -->
+</div>
