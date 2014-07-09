@@ -3,11 +3,17 @@ layout: home
 title: Code Samples
 subtitle: Code samples from my projects
 ---
-# {{posts.subtitle}}
+# {{page.subtitle}}
 
-These are some very simple examples of code that I've produced.
 Code should be clear, consise, and written so that it is self-documenting
 as much as possible. I take pride in all the code that I produce.
+
+## Online Samples
+
+I'm the maintainer of the [MessiJS](http://github.com/MessiJS/MessiJS)
+Project. That is a good example of my JavaScript skills.
+
+## Other Samples
 
 This first snippet of code contains JavaScript and jQuery functions
 that control the dynamic scoring of my 2009 Post-Christmas Quiz.
