@@ -14,6 +14,7 @@ body {
   /*background: #B9B6B7;*/
   /*background-color: #eeeeff;*/
 }
+
 #container {
   background-color: #eeeeff;
   background-image: url(../img/background.jpg);
@@ -89,6 +90,11 @@ section p {
   position: relative;
   top: -0.5em;
 }
+
+.gist-file {
+    font-size: 12px;
+}
+
 #index h1,
 #index h2,
 #index h3 {
@@ -345,6 +351,17 @@ hr {
   margin-bottom: 0;
 }
 
-.gist-file {
-    font-size: 12px;
+#presentations a {
+    text-decoration: none;
 }
+
+#presentations h3 {
+    margin-top: 40px;
+}
+    #presentations h3 a, #presentations h3 em {
+        font-size: 70%;
+    }
+
+    #presentations h3 + p, #presentations h3 + p + p {
+        font-size: smaller;
+    }
