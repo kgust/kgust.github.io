@@ -9,11 +9,23 @@ id: presentations
 Sometimes I give presentations about technologies that I've learned
 or that are interesting to me.  This is a reasonably complete list.
 
-### jQuery 101 [html][jquery]
-February 2011 — [Fox Valley Computing Professionals][fvcp]
+### Composer 101 [pdf](/presentations/Composer 101 - Simplifying PHP Dependency Management.pdf)
+Prepared but not delivered — [Fox Valley Computing Professionals][fvcp]
 
-### Doctrine 1 vs. Doctrine 2 [pdf](/presentations/Doctrine Presentation.pdf)
-April 2011 — [CellTrak][celltrak] Lunch-n-Learn
+_Note: This is a lightning talk._
+
+### Sharpen Yer Tools! [html][tools]
+March 2014 — [Fox Valley Linux User's Group][fvlug]
+
+May 2014 — [Fox Valley Computing Professionals][fvcp]
+
+### Github Flow _No slides available_
+February 2014 — [Fox Valley Computing Professionals][fvcp]
+
+_Note: This presentation was primarily hands on, no slides are available._
+
+### Symfony 101 [pdf](/presentations/Symfony 101 - Introducing Symfony 2.pdf)
+March 2013 — [Fox Valley Computing Professionals][fvcp]
 
 ### Testing with Behat _No slides available_
 March 2013 — [CellTrak][celltrak] Lunch-n-Learn
@@ -23,23 +35,11 @@ _Note: This presentation was primarily hands on, no slides are available._
 ### AutoSave for Chrome Developer Tools [html][autosave]
 April 2012 — [Fox Valley Computing Professionals][fvcp]
 
-### Symfony 101 [pdf](/presentations/Symfony 101 - Introducing Symfony 2.pdf)
-March 2013 — [Fox Valley Computing Professionals][fvcp]
+### Doctrine 1 vs. Doctrine 2 [pdf](/presentations/Doctrine Presentation.pdf)
+April 2011 — [CellTrak][celltrak] Lunch-n-Learn
 
-### Github Flow _No slides available_
-February 2014 — [Fox Valley Computing Professionals][fvcp]
-
-_Note: This presentation was primarily hands on, no slides are available._
-
-### Sharpen Yer Tools! [html][tools]
-March 2014 — [Fox Valley Linux User's Group][fvlug]
-
-May 2014 — [Fox Valley Computing Professionals][fvcp]
-
-### Composer 101 [pdf](/presentations/Composer 101 - Simplifying PHP Dependency Management.pdf)
-Prepared — [Fox Valley Computing Professionals][fvcp]
-
-_Note: This is a lightning talk._
+### jQuery 101 [html][jquery]
+February 2011 — [Fox Valley Computing Professionals][fvcp]
 
 [celltrak]: http://www.celltrak.com/ "CellTrak Technologies, Inc."
 [fvcp]: http://www.meetup.com/foxvalleycp/ "Fox Valley Computing Professionals"
