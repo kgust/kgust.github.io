@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript"> document.documentElement.className = 'js'; </script>
+
+  <link rel="stylesheet" href="styles/ui-slideshow/jquery-ui-1.7.2.custom.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/style.css" media="screen, projection" />
+  <link rel="stylesheet" href="styles/recipes.css" />
+  <!--[if lte IE 7]>
+    <link rel="stylesheet" href="styles/ie.css" media="screen, projection"/>
+  <![endif]-->
+  <title>What is jQuery and Why Should I Care?</title>
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <style>
+  </style> 
+</head>
+
+<body class="slideshow">
+  <div id="intro" class="slide intro">
+    <h1>jQuery<span class="super">&reg;</span></h1>
+    <h2>What Is It?<br/>Why Should I Care?</h2>
+    <h3>Fox Valley Computing Professionals<br/>April 12, 2011</h3>
+    <div id="fvcp_logo">
+      <a href="http://www.meetup.com/foxvalleycp/">
+        <img src="http://www.foxvalleycp.com/images/fvcp_03.03_logo.png">
+      </a>
+    </div>
+  
+    <div class="note">* Right arrow key or Return/Enter to move forward; left arrow key to move backward. Or, use slide list at bottom of page (appears on hover)</div>
+  </div>
+
+  <div id="myself" class="slide">
+    <img id="headshot" src="http://kevingustavson.info/img/headshot.png" />
+    <h1>Who Am I?</h1>
+    <h2>Kevin Gustavson</h2>
+    <ul>
+      <li class="step">Software Developer for CellTrak Technologies, Inc. in Schaumburg</li>
+      <li class="step">jQuery user since 2007.</li>
+      <li class="step">Web Developer since 2007.</li>
+      <li class="step">Linux enthusiast: Have used Linux since 1995.</li>
+      <li class="step">Have been in the Software Industry since 1996.</li>
+    </ul>
+  </div>
+
+  <div id="who-uses-it" class="slide">
+    <h1>Who uses it?</h1>
+    <h2>Statistics (as of March 15)</h2>
+      <h3 class="step">221,348 of the top million websites (22%)</h3>
+      <h3 class="step">19,914,540 Total Websites</h3>
+  </div>
+
+  <div id="features1" class="slide">
+    <h1>Features</h1>
+    <ul>
+    <li class="step">Cross-browser support</li>
+    <li class="step">Browser feature detection</li>
+    <li class="step">Powerful DOM Selectors</li>
+    <li class="step">DOM traversal and modification</li>
+    <li class="step">CSS Manipulation</li>
+    <li class="step">Ajax Functions</li>
+    <li class="step">Event Handling</li>
+    <li class="step">Effects and Animations</li>
+    <li class="step">Great community support</li>
+    <li class="step">Over 5000 plugins!</li>
+    </ul>
+  </div>
+  <div id="loading-jquery" class="slide">
+    <h1>Loading jQuery</h1>
+  <p class="step">Loading jQuery is very easy...</p>
+  <p class="step">It's lightweight and fast, only 29KB when Minified and Gzipped.</p>
+  <p class="step">Available from jQuery.com</p>
+  <p class="step">Or from one of the following CDNs:</p>
+  <ul>
+    <li class="step">Google Ajax API CDN</li>
+    <li class="step">Microsoft CDN</li>
+    <li class="step">jQuery CDN</li>
+  </ul>
+  <h2 class="step">OR . . .</h2>
+  </div>
+  <div id="drupal-jquery" class="slide">
+    <h1>Download it from...</h1>
+    <h2 class="step">http://www.Drupal.org/ !</h2>
+  </div>
+  <div id="using-jquery" class="slide">
+    <h1>Using jQuery</h1>
+      <p class="step">jQuery begins with a factory pattern, like this:</p>
+      <p class="step"><code class="js">jQuery(<em>selectors</em>).<em>function</em>();</code></p>
+      <p class="step">You can also use the shortcut:</p>
+      <p class="step"><code class="js"><strong>$</strong>(<em>selectors</em>).<em>function</em>();</code></p>
+      <p class="step">The selectors are standard CSS with some additions.</p>
+      <p class="step">jQuery has a number of functions:</p>
+      <p class="step"><code class="js">$('#hidden').show();</code></p>
+      <p class="step"><code class="js">$('div.error').hide();</code></p>
+  </div>
+  <div id="selectors1" class="slide">
+    <h1>DOM Selectors</h1>
+    <p class="step">Just like CSS, you can combine elements to make a more powerful search.</p>
+    <p class="step"><code class="js">$('#my_div ul li span').html('blue is better');</code></p>
+    <p class="step">CSS 2.1 can also be used as selectors.</p>
+    <p class="step"><code class="js">$('#my_div &gt; p').css('color','#00F');</code></p>
+    <p class="step">Attributes</p>
+    <p class="step"><code class="js">email = $("input[name='email_addr']").val();</code></p>
+    <p class="step">Getting more selective</p>
+    <p class="step"><code class="js">li = $("li:eq(2)").html();</code></p>
+    <p class="step"><code class="js">ul = $("ul:has('p')").html();</code></p>
+  </div>
+  <div id="selectors2" class="slide">
+    <h1>DOM Selectors (cont.)</h1>
+    <p class="step">Adjacent Selectors</p>
+    <p class="step"><code class="js">$para = $('ul + p').css('font-style','italic');</code></p>
+    <p class="step">Contains</p>
+    <p class="step"><code class="js">txt = $("p:contains('bada')").text();</code></p>
+    <p class="step">Disabled elements</p>
+    <p class="step"><code class="js">$(':input:disabled').removeAttr('disabled');</code></p>
+    <p class="step">There are many more jQuery specific selectors that can make your website coding faster and more fun.</p>
+  </div>
+  <div id="chainability1" class="slide">
+    <h1>Chainability</h1>
+    <p class="step">Chainability is my favorite feature of jQuery.</p>
+    <p class="step">You <em>could</em> do something like this...</p>
+    <p class="step js"><code class="js">$element = $('#my_div');</code></p>
+    <p class="step"><code class="js">$element.addClass('highlight');</code></p>
+    <p class="step"><code class="js">$element.add('&lt;p&gt;Something here.&lt;/p&gt;');</code></p>
+    <p class="step"><code class="js">$element.parent().click(clickHandler);</code></p>
+  </div>
+  <div id="chainability2" class="slide">
+    <h1>Chainability (cont.)</h1>
+    <p class="step">But chaining is better...</p>
+    <code class="js">
+        <p class="step">$('ul.admin')</p>
+        <p class="step">&nbsp;&nbsp;&nbsp;.append('&lt;li&gt;My cool project&lt;/li&gt;')</p>
+        <p class="step">&nbsp;&nbsp;&nbsp;.removeClass('beta-project')</p>
+        <p class="step">&nbsp;&nbsp;&nbsp;.addClass('production')</p>
+        <p class="step">&nbsp;&nbsp;&nbsp;.css('font-weight','normal');</p>
+    </code><br/>
+    <p class="step">Readability with chaining</p>
+    <p class="step"><code class="js">$(':input:eq(0)').parents(':not(:first)').show();</code></p>
+  </ul>
+  </div>
+  <div id="arrays-and-collections" class="slide">
+    <h1>Arrays and Collections</h1>
+    <p class="step">Collections work as a single unit.</p>
+    <p class="step">This means that in many cases you won't have to loop through a set of elements.</p>
+    <p class="step"><code class="js">$('div.simple:gt(2)').remove();</code></p>
+
+    <p class="step">Arrays are a little more complex, but still pretty easy.</p>
+    <code class="step js"><pre>
+var data = [ 'text1', 'text2', 'text3' ];
+    </pre></code>
+    <code class="step js"><pre>
+$.each(data, function(key, value) {
+    alert( "The key is '" + key + "' and the value is '" + value + "'" );
+});
+    </pre></code>
+  </div>
+  <div id="traveling-the-dom" class="slide">
+    <h1>Traveling Up and Down the DOM</h1>
+    <p class="step">Going up...</p>
+    <p class="step"><code class="js">$('p:contains(Resig)').parents('div').html();</code></p>
+    <p class="step">Going down...</p>
+    <p class="step"><code class="js">$('#content').children(':first').hide();</code></p>
+    <p class="step">Backing up...</p>
+    <p class="step"><code class="js">$('#dishes').prev().append('Sold Out!');</code></p>
+    <p class="step">Going forward...</p>
+    <p class="step"><code class="js">$('#socks').next().children("li").css('margin','1.2em');</code></p>
+  </div>
+  <div id="events" class="slide">
+    <h1>Event handling</h1>
+    <p class="step">The bind() function.</p>
+    <p class="step"><code class="js">$('.camera').bind('click', function(el) { add_to_shopping_cart(el); }</code></p>
+    <p class="step">The click() shortcut function.</p>
+    <p class="step"><code class="js">$('#dl17b').click(remove_from_shopping_cart);</code></p>
+    <p class="step">Other events you can use:</p>
+    <p class="step"><code class="js">blur, change, dblclick, error, focus, hover, keypress, load, mouseover, ready, resize, scroll, select¸ submit, toggle, unload…</code></p>
+    <p class="step">Plus several derivatives of these.</p>
+  </div>
+  <div id="effects1" class="slide">
+    <h1>Effects and animations</h1>
+    <p class="step">There are a number of different animation and effects that can be used to great benefit.</p>
+    <p class="step"><code class="js">animate, delay, fadeIn, fadeOut, fadeTo, fadeToggle, hide, slideDown, slideUp, slideToggle, show, stop, toggle, etc.</code></p>
+    <div class="step">
+        <p>
+            <button>Toggle Slide</button>
+        </p>
+        <div id="lorem">
+           <!--lorem-->
+           <p style="width: 800px;">Conubia nostra, per inceptos himenaeos. Nulla lectus sem, tristique sed,
+           semper in, hendrerit non, sem. Vivamus dignissim massa in ipsum. Morbi
+           fringilla ullamcorper ligula. Nunc turpis. Mauris vitae sapien. Nunc luctus
+           bibendum velit.</p>
+           <!--/lorem-->
+        </div>
+        <script>
+            $("button").click(function () {
+              $("#lorem").slideToggle("slow");
+            });
+        </script>
+
+
+    </div>
+  </div>
+  <div id="effects2" class="slide">
+    <h1>Effects and animations (cont.)</h1>
+    <p class="step">animate() is the most generic, which makes it the most useful.</p>
+    <pre class="step"><code class="js">$('li').animate(
+{ opacity: .5, height: '50%' },
+{
+  step: function(now, fx) {
+    var data = fx.elem.id + ' ' + fx.prop + ': ' + now;
+    $('body').append('&lt;div&gt;' + data + '&lt;/div&gt;');
+});</code></pre>
+  </div>
+<!--
+  <div id="effects3" class="slide">
+    <h1>Effects and animations (cont.)</h1>
+    <p class="step">Put some animations here if you have time.</p>
+  </div>
+-->
+  <div id="browser-features" class="slide">
+    <h1>Browser Feature Detection</h1>
+    <p class="step" id="boxModel"> </p>
+    <script type="text/javascript">$('#boxModel').html('This browser supports boxModel: ' + true + '.');</script>
+<!--
+    <script type="text/javascript">$('#boxModel').html('This browser supports boxModel: ' + jQuery.support.boxModel + '.');</script>
+-->
+    <p class="step">The support tests supported are:</p>
+    <p class="step"><code class="js">ajax boxModel changeBubbles checkClone<br/>
+cors cssFloat hrefNormalized htmlSerialize<br/>
+leadingWhitespace noCloneChecked noCloneEvent<br/>
+opacity optDisabled optSelected scriptEval()<br/>
+style submitBubbles tbody
+</code></p>
+  </div>
+  <div id="plugins" class="slide">
+    <h1>Extending jQuery</h1>
+    <p class="step">Writing jQuery plugins is an advanced topic but fairly easy to get into.</p>
+    <pre class="step"><code class="js">(function($){
+$.fn.lockDimensions = function( type ) {  
+    return this.each(function() {
+    var $this = $(this);
+    if ( !type || type == 'width' ) { $this.width( $this.width() ); }
+          if ( !type || type == 'height' ) { $this.height( $this.height() ); }
+    });
+};
+})( jQuery );
+</code></pre><br/>
+
+<p class="step">And call it like this…<br/>
+  <code class="js">
+  $('div').lockDimensions('width').css('color', 'red');
+  </code>
+</p>
+
+  </div>
+  <div id="children" class="slide">
+    <h1>jQuery Child Projects</h1>
+  <h2 class="step">jQuery UI</h2>
+  <p class="step">jQuery UI builds upon the excellent jQuery framework by abstracting out some of the low-level animations and effects. It also provides a powerful set of widgets and themes.</p>
+  <h2 class="step">jQuery Mobile</h2>
+  <p class="step">"The jQuery mobile framework will allow you to design a single highly branded and customized web application that will work on all popular smartphone and tablet platforms."      --from the jQuery Mobile website</p>
+  </div>
+  <div id="thoughts" class="slide">
+    <h1>Versions</h1>
+    <h2 class="step">Version 1.3</h2>
+    <ul>
+      <li class="step">live();</li>
+    </ul>
+    <h2 class="step">Version 1.4</h2>
+    <ul>
+      <li class="step">Performance Improvements</li>
+      <li class="step">Most functions can now accept strings, data objects, and <strong>functions</strong>.</li>
+    </ul>
+    <h2 class="step">Version 1.5</h2>
+    <ul>
+      <li class="step">Deferred Objects</li>
+    </ul>
+  </div>
+  <div id="more-information" class="slide">
+    <h1>I've barely scratched the surface...</h1>
+    <h2>Where to get more information</h2>
+    <ul>
+      <li class="step">The excellent jQuery website.</li>
+      <p class="step">http://www.jquery.com/ and http://api.jquery.com/</p>
+      <li class="step">The jQuery community</li>
+      <p class="step">http://docs.jquery.com/Discussion</p>
+      <li class="step">The jQuery podcast</li>
+      <p class="step">http://podcast.jquery.com/</p>
+    </ul>
+  </div>
+
+  <div id="thanks-to" class="slide">
+    <h1>Thanks to:</h1>
+    <ul>
+      <li class="step">Jeremy Resig and the jQuery Team</li>
+      <li class="step">The learningjquery.com website for information and the wonderful
+      presentation template.</li>
+    </ul>
+    <h2 class="step">jQuery plugins used:</h2>
+    <ul class="step">
+      <li>jquery.ui.js</li>
+      <li>jquery.chili.js</li>
+      <li>jquery.color.js</li>
+      <li>jquery.address.js</li>
+      <li>slideshow.js</li>
+      <li>jquery.media.js</li>
+      <li>extras.js</li>
+      <li>demo.js</li>
+    </ul>
+  </div>
+
+  <div id="presentation" class="slide intro">
+    <h1>http://kevingustavson.info/presentations/jquery/</h1>
+    <h2 class="step">Any Questions?</h2>
+  </div>
+
+  <script type="text/javascript" src="scripts/jquery.chili.js"></script>
+  <script type="text/javascript" src="scripts/jquery.color.js"></script>
+  <script type="text/javascript" src="scripts/recipes.js"></script>
+  <script type="text/javascript" src="scripts/jquery.address.js"></script>
+
+  <script type="text/javascript" src="scripts/slideshow.js"></script>
+  <script type="text/javascript" src="scripts/jquery.media.js"></script>
+  <script type="text/javascript" src="scripts/extras.js"></script>
+  <script type="text/javascript" src="scripts/demos.js"></script>
+</body>
+</html>
+<!-- vim: set et:ts=2:sw=2:sts=2: -->
