@@ -1,0 +1,245 @@
+/* Modified by Jonathan Discar.
+
+.dp-highlighter
+  font-family: "Consolas", "Courier New", Courier, mono, serif
+  font-size: 12px
+  background-color: #E7E5DC
+  width: 99%
+  overflow: auto
+  margin: 18px 0 18px 0 !important
+  border: 1px solid #D7D5CC
+  ol
+    margin: 0
+    padding: 0
+    border: 1px
+    li
+      margin: 0
+      padding: 0
+      border: 1px
+      span
+        margin: 0
+        padding: 0
+        border: 1px
+  a
+    background: none
+    border: none
+    padding: 0
+    margin: 0
+    &:hover
+      background: none
+      border: none
+      padding: 0
+      margin: 0
+  .bar
+    padding-left: 45px
+  &.collapsed .bar, &.nogutter .bar
+    padding-left: 0px
+  ol
+    list-style: decimal
+    /* for ie
+    background-color: #fff
+    margin: 0px 0px 0px 45px !important
+    /* Bottom Margin may need to be 1px
+    padding: 0px
+    color: #5C5C5C
+  &.nogutter ol
+    list-style: none !important
+    margin-left: 0px !important
+    li
+      list-style: none !important
+      margin-left: 0px !important
+  ol li, .columns div
+    list-style: decimal-leading-zero
+    /* better look for others, override cascade from OL
+    list-style-position: outside !important
+    border-left: 3px solid #6CE26C
+    background-color: #F8F8F8
+    color: #5C5C5C
+    padding: 0 3px 0 10px !important
+    margin: 0 !important
+    line-height: 14px
+  &.nogutter
+    ol li, .columns div
+      border: 0
+  .columns
+    background-color: #F8F8F8
+    color: gray
+    overflow: hidden
+    width: 100%
+    div
+      padding-bottom: 5px
+  ol li
+    &.alt
+      background-color: #FFF
+      color: inherit
+    span
+      color: black
+      background-color: inherit
+  &.collapsed ol
+    margin: 0px
+    li
+      display: none
+  &.printing
+    border: none
+    .tools
+      display: none !important
+    li
+      display: list-item !important
+  .tools
+    padding: 3px 8px 3px 10px
+    font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif
+    color: silver
+    background-color: #f8f8f8
+    padding-bottom: 5px
+    border-left: 3px solid #6CE26C
+    #border-bottom: 1px solid #D7D5CC
+  &.nogutter .tools
+    border-left: 0
+  &.collapsed .tools
+    border-bottom: 0
+  .tools a
+    font-size: 9px
+    color: #a0a0a0
+    background-color: inherit
+    text-decoration: none
+    margin-right: 10px
+    &:hover
+      color: red
+      background-color: inherit
+      text-decoration: underline
+
+/* clear styles
+
+/* Adjust some properties when collapsed
+
+/* Additional modifications when in print-view
+
+/* Styles for the tools
+
+/* About dialog styles
+
+.dp-about
+  background-color: #fff
+  color: #333
+  margin: 0px
+  padding: 0px
+  table
+    width: 100%
+    height: 100%
+    font-size: 11px
+    font-family: Tahoma, Verdana, Arial, sans-serif !important
+  td
+    padding: 10px
+    vertical-align: top
+  .copy
+    border-bottom: 1px solid #ACA899
+    height: 95%
+  .title
+    color: red
+    background-color: inherit
+    font-weight: bold
+  .para
+    margin: 0 0 4px 0
+  .footer
+    background-color: #ECEADB
+    color: #333
+    border-top: 1px solid #fff
+    text-align: right
+  .close
+    font-size: 11px
+    font-family: Tahoma, Verdana, Arial, sans-serif !important
+    background-color: #ECEADB
+    color: #333
+    width: 60px
+    height: 22px
+
+/* Language specific styles
+
+.dp-highlighter
+  .comment, .comments
+    color: #008200
+    background-color: inherit
+  .string
+    color: blue
+    background-color: inherit
+  .keyword
+    color: #069
+    font-weight: bold
+    background-color: inherit
+  .preprocessor
+    color: gray
+    background-color: inherit
+  .header
+    padding: 2px 0px 2px 0px
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif
+    color: #333
+    background-color: #f8f8f8
+
+/* Header
+
+/* Brush Specific CSS, copied from their .js files
+
+.dp-cpp .datatypes
+  color: #2E8B57
+  font-weight: bold
+
+.dp-c .vars
+  color: #d00
+
+.dp-css
+  .value
+    color: black
+  .important
+    color: red
+
+.dp-delphi
+  .number
+    color: blue
+  .directive
+    color: #008284
+  .vars
+    color: #000
+
+.dp-j
+  .annotation
+    color: #646464
+  .number
+    color: #C00000
+
+.dp-py
+  .builtins
+    color: #ff1493
+  .magicmethods
+    color: #808080
+  .exceptions
+    color: brown
+  .types
+    color: brown
+    font-style: italic
+  .commonlibs
+    color: #8A2BE2
+    font-style: italic
+
+.dp-rb
+  .symbol
+    color: #a70
+  .variable
+    color: #a70
+    font-weight: bold
+
+.dp-sql
+  .func
+    color: #ff1493
+  .op
+    color: #808080
+
+.dp-xml
+  .cdata
+    color: #ff1493
+  .tag, .tag-name
+    color: #069
+    font-weight: bold
+  .attribute
+    color: red
+  .attribute-value
+    color: blue

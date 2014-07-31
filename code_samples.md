@@ -13,11 +13,11 @@ as much as possible. I take pride in all the code that I produce.
 ### Javascript
 
 I'm the maintainer of the [MessiJS](http://github.com/MessiJS/MessiJS)
-Project. This is a good example of my JavaScript skills.
+project. This is a good example of my Javascript skills.
 
-I am learning [Node.JS](http://nodejs.org/). I am also know
-[Mocha](http://visionmedia.github.io/mocha/), [Grunt](http://gruntjs.com/),
+I know [Mocha](http://visionmedia.github.io/mocha/), [Grunt](http://gruntjs.com/),
 [Gulp](http://gulpjs.com/) and [Coffeescript](http://coffeescript.org/).
+I'm also learning [Node.JS](http://nodejs.org/).
 
 ### Ruby
 
