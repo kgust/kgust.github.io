@@ -1,4 +1,4 @@
 name: Your New Jekyll Site
-markdown: redcarpet
+#markdown: redcarpet
 permalink: pretty
 lsi: true
