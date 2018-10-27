@@ -2,3 +2,4 @@ name: Your New Jekyll Site
 #markdown: redcarpet
 permalink: pretty
 lsi: true
+exclude: ['package.json', 'package-lock.json', 'node_modules', 'tags']
